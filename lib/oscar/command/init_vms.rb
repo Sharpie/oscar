@@ -12,7 +12,7 @@ class Oscar::Command::InitVMs < Vagrant.plugin('2', :command)
 
     @masters = []
     @agents  = []
-    @pe_version = '3.0.0' # @todo remove thingy
+    @pe_version = '3.0.1' # @todo remove thingy
 
     split_argv
   end
